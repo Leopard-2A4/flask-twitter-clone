@@ -1,0 +1,12 @@
+2026-06-27 15:43:28.791405
+Traceback (most recent call last):
+
+  File "/home/artem/PycharmProjects/python_advanced_diploma/backend/routes/control_media/upload_media.py", line 41, in upload_media
+    file.save(abs_path)
+
+  File "/home/artem/PycharmProjects/python_advanced_diploma/.venv/lib/python3.12/site-packages/werkzeug/datastructures/file_storage.py", line 129, in save
+    dst = open(dst, "wb")
+          ^^^^^^^^^^^^^^^
+
+PermissionError: [Errno 13] Permission denied: '/home/artem/PycharmProjects/python_advanced_diploma/backend/static/uploads/1_test.jpg'
+

@@ -1,0 +1,3 @@
+from routes.control_getters.get_feed import get_feed
+from routes.control_getters.get_my_profile import get_my_profile
+from routes.control_getters.get_user_profile import get_user_profile

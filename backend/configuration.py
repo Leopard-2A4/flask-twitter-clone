@@ -81,6 +81,7 @@ def create_app(test_config=None):
     else:
         app.config["SQLALCHEMY_DATABASE_URI"] = os.getenv(
             "DATABASE_URL",
+            "postgresql+psycopg2://postgres:postgres@postgres:5432/twitter_clone"
         )
 
     app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
